@@ -1,0 +1,48 @@
+@fontePrincipal: 'Parkinsans', sans-serif;
+@fonteTitulo: 600;
+@cordoTitulo: rgba(0, 0, 0, 0.34);
+@corSecundaria: rgba(18, 18, 121, 0.667);
+@corDeFundo: #ffffffa9;
+@butaoColor: rgb(20, 179, 20);
+@black: black;
+
+body, header {
+    font-size: @fontePrincipal;
+    color: @corSecundaria;
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    color: @corSecundaria;   
+    display: block;
+    width: 50%; 
+    margin: 0 auto; 
+    text-align: center; 
+
+    
+
+}
+
+h2 {
+    background-color: @corSecundaria;
+}
+
+button , select{
+    background-color: @butaoColor;
+    color: @black;
+    border-radius: 6px;
+}
+
+.form-container {
+    border-radius: 6px;
+
+    select {
+        margin-right: 80px;
+    }
+}
+
+#listaPessoas {
+    color:@black;
+    list-style: none;
+}
